@@ -9,3 +9,4 @@ ___
 >- Image Carousel
 >- Logins 
 >- Price Section
+>- Text Effects
