@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="glide.core.min.css">
+	<link rel="stylesheet" type="text/css" href="glide.theme.min.css">
+	<script type="text/javascript" src="glide.min.js"></script>
+</head>
+<body>
+	<div class="images glide">
+		<div class="glide__track" data-glide-el="track">
+			<ul class="glide__slides">
+				<li class="glide__slide">
+					<img src="imgs/caballero cadaver.jpg">
+				</li>
+
+				<li class="glide__slide">
+					<img src="imgs/caballero capitan de eos.jpg">
+				</li>
+
+				<li class="glide__slide">
+					<img src="imgs/caballero de kinsbaile.jpg">
+				</li>
+
+				<li class="glide__slide">
+					<img src="imgs/caballero de la gloria.jpg">
+				</li>
+
+				<li class="glide__slide">
+					<img src="imgs/aryel caballero de windgrace.jpg">
+				</li>	
+
+				<li class="glide__slide">
+					<img src="imgs/caballero audaz.jpg">
+				</li>										
+			</ul>
+		</div>
+		<div class="glide__arrows" data-glide-el="controls">
+			<button class="glide__arrow glide__arrow--left" data-glide-dir="<"><i class="fas fa-arrow-left"></i></button>
+			<button class="glide__arrow glide__arrow--right" data-glide-dir=">"><i class="fas fa-arrow-right"></i></button>
+		</div>
+	</div>
+	<script type="text/javascript">
+		new Glide(".images",{
+			type: 'carousel',
+			perView: 5,
+			focusAt: 'center',
+			gap: 40,
+			breakpoints: {
+				1200:{
+					perView: 3 
+				},
+				800:{
+					perView: 2
+				}
+			}
+		}).mount();
+	</script>
+</body>
+</html>
