@@ -1,6 +1,4 @@
-___
 # HTML-Templates
-___
 
 ### Templates Available
 
